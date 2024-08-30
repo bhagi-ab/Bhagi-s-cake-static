@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+* {
+	margin: 10px;
+	padding: 0;
+}
+
+header,
+article {
+
+	border-bottom: 2px solid #aaa;
+}
+
+nav {
+	background:#ffcccc;
+	font-size: 25px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+ul li {
+	margin: 0;
+	display: inline;
+}
+
+ul li a {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+article p {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+}
+
+h.a{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	font-size: 50px;
+	color:#832586;
+}
+h.b{
+	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#C47CDF;
+	font-size: 30px;
+	
+}
+h.c{
+	
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+h.d{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+h.f{
+	font-family: Arial;
+	color:#8F6288;
+	font-size: 20px;
+}
+h.i{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+h.j{
+	text-align: center;
+	color:#692176;
+	font-size:55px;
+	text-decoration: underline;
+}
+h.k{
+	font-family: Arial;
+	font-size: 30px;
+}
+h.l{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#833A73;
+	font-size: 35px;
+}
+h.m{
+	font-size: 25px;
+	font-weight: bold;
+}
+h.n{
+	color:#601F5E;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: underline;
+}
+h.q{
+  font-size: 19px;
+	text-align: center;
+}
+body.a{
+	background:#CB8ECA; 
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	height: 100vh;
+	font-family: Arial;
+}
+.button{
+	background-color:#F3E6FB;
+	border:#4F1173;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+}
